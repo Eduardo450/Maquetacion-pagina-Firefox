@@ -1,0 +1,288 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.ancho{
+  width: 1200px;
+  margin: auto;
+}
+
+.negritas{
+  font-weight: bold;
+}
+
+.centrar{
+  text-align: center;
+}
+
+.contenedorHeader{
+  padding: 5px;
+}
+
+.contenedorImagenMozilla{
+  width: 150px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.imagenMozilla{
+  width: 100%;
+}
+
+.contenedorNavBar{
+  width: 1000px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.botonesNavbar{
+  padding: 8px 8px;
+  color: #333;
+  text-decoration: none;
+}
+
+.botonDescargar1{
+  padding: 8px 20px;
+  border: 2px blue solid;
+  border-radius: 10px;
+  text-decoration: none;
+  color: blue;
+  margin-left: 270px;
+}
+
+.lineaHeader{
+  width: 1190px;
+  background-color: rgb(195, 195, 195);
+  padding: 1px;
+}
+
+.contenedorLogoFirefox{
+  display: block;
+  padding: 0px 10px;
+  padding-top: 20px;
+}
+
+.logoFirefox{
+  width: 100px;
+}
+
+.contenedorTextoBienvenida{
+  width: 45%;
+  padding-top: 25px;
+  margin-right: 35px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+h1{
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.botonDescargar2{
+  padding: 8px 20px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.AvisoPrivacidad{
+  font-size: 10px;
+  text-decoration: none;
+  margin-left: 25px;
+  color: #9f9e9e;
+}
+
+.contenedorImagenBienvenida{
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.imagenBienvenida{
+  width: 100%;
+}
+
+.contenedorDinosaurio{
+  background-color: #f3f3f3;
+  padding: 5px;
+}
+
+.contenedorImagenDinosaurio{
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.dinosaurio{
+  width: 100%;
+}
+
+.contenedorTextoDinosaurio{
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contenedorTextoDinosaurio h2{
+  padding: 20px;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 750;
+}
+
+.contenedorNuestro{
+  margin-top: 20px;
+}
+
+.contenedorNuestroImpacto{
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  text-align: left;
+  margin-right: 30px;
+  border-right: 2px rgb(195, 195, 195) solid;
+  padding: 20px;
+}
+
+.contenedorNuestrasInnovaciones{
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  text-align: left;
+  padding: 20px;
+}
+
+.lista a{
+  color: blue;
+}
+
+.lista::marker{
+  color: black;
+}
+
+.contenedorDatosExtra h2{
+  line-height: 40px;
+  text-decoration: underline;
+  padding: 20px;
+}
+
+.contenedorExtensiones{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.contenedorEmpleos{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.contenedorAyuda{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.contenedorImagenDatosExtra{
+  width: 150px;
+  margin: auto;
+}
+
+.imagenDatosExtra{
+  width: 100%;
+}
+
+.contenedorNoticias{
+
+}
+
+.contenedorImagenNoticias{
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 80px;
+}
+
+.contenedorFormularioNoticias{
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.formulario h2{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.formulario label{
+  font-weight: bold;
+}
+
+.formulario input{
+  width: 100%;
+  padding: 5px;
+}
+
+.formulario placeholder{
+  text-align: left;
+}
+
+.formulario button{
+  margin-top: 20px;
+  padding: 5px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.formulario h4{
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.caption{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contenedorMozillaFinal{
+  background-color: black;
+  padding: 40px;
+}
+
+.contenedorImagenMozillaFinal{
+  width: 100px;
+  margin: auto;
+}
+
+.imagenMozillaFinal{
+  width: 100%;
+}
